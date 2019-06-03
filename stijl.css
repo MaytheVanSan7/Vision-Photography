@@ -1,0 +1,301 @@
+body{
+  background-color: white;
+
+}
+.vision{
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  color: red;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding-top: 2rem;
+  display: block;
+  position: absolute;
+  left: 32%;
+  text-decoration: none;
+}
+.index{
+  font-size: 2rem;
+  font-family: 'Zilla Slab', serif;
+  color: red;
+  font-weight:200;
+  letter-spacing: 1.5px;
+  padding-top: 2rem;
+  display: block;
+  position: absolute;
+  left: 75%;
+  text-decoration: none;
+}
+.portrets{
+  height: 30rem;
+  width: auto;
+  position: relative;
+}
+img:nth-child(1){
+  position: absolute;
+  top: 10rem;
+  left: 30%;
+}
+img:nth-child(2){
+  position: absolute;
+  top: 41rem;
+  left: 20%;
+}
+img:nth-child(3){
+  position: absolute;
+  top: 62rem;
+  left: 30%;
+}
+img:nth-child(4){
+  position: absolute;
+  top: 93rem;
+  left: 20%;
+}
+#portrets{
+	color: white;
+	font-size: 50px;
+  font-family: helvetica;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+    -webkit-text-fill-color: transparent;
+    padding-top: 6rem;
+    display: block;
+    position: absolute;
+    left: 20%;
+}
+.wedding{
+  height: 30rem;
+  width: auto;
+  position: relative;
+}
+.wedding > img:nth-child(1){
+  position: absolute;
+  top: 92rem;
+  left: 20%;
+}
+.wedding > img:nth-child(2){
+  position: absolute;
+  top: 113rem;
+  left: 30%;
+}
+.wedding > img:nth-child(3){
+  position: absolute;
+  top: 144rem;
+  left: 20%;
+}
+.wedding > img:nth-child(4){
+  position: absolute;
+  top: 165rem;
+  left: 30%;
+}
+#wedding{
+	color: white;
+	font-size: 50px;
+  font-family: helvetica;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+    -webkit-text-fill-color: transparent;
+    padding-top: 88.5rem;
+    display: block;
+    position: absolute;
+    left: 20%;
+}
+
+.restaurant{
+  height: 30rem;
+  width: auto;
+  position: relative;
+}
+.restaurant > img:nth-child(1){
+  position: absolute;
+  top: 172rem;
+  left: 20%;
+}
+.restaurant > img:nth-child(2){
+  position: absolute;
+  top: 197rem;
+  left: 30%;
+}
+.restaurant > img:nth-child(3){
+  position: absolute;
+  top: 253rem;
+  left: 30%;
+}
+.restaurant > img:nth-child(4){
+  position: absolute;
+  top: 227rem;
+  left: 20%;
+}
+#nomad{
+	color: white;
+	font-size: 50px;
+  font-family: helvetica;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+    -webkit-text-fill-color: transparent;
+    padding-top: 168.5rem;
+    display: block;
+    position: absolute;
+    left: 20%;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(0,0);
+  }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+
+@supports (grid-area:auto) {
+
+  @media (min-width: 1000px ) {
+    .onzichtbaar{
+      display: none;
+    }
+    body{
+      background-color: white;
+      height: 300rem;
+    }
+    .vision{
+      font-size: 2rem;
+      font-family: sans-serif;
+      font-variant: small-caps;
+      color: red;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      padding-top: 2rem;
+      display: block;
+      position: absolute;
+      left: 43%;
+      text-decoration: none;
+    }
+    .index{
+      font-size: 2rem;
+      font-family: 'Zilla Slab', serif;
+      color: red;
+      font-weight:200;
+      letter-spacing: 1.5px;
+      padding-top: 2rem;
+      display: block;
+      position: absolute;
+      left: 93%;
+      text-decoration: none;
+    }
+    .portrets{
+      height: 70rem;
+      width: auto;
+      position: relative;
+    }
+    .portrets > img:nth-child(1){
+      position: absolute;
+      top: 7rem;
+      left: 44rem;
+    }
+      .portrets >img:nth-child(2){
+      position: absolute;
+      top: 17rem;
+      left: 64.6rem;
+    }
+      .portrets >img:nth-child(3){
+      position: absolute;
+      top: 37.5rem;
+      left: 79.7rem;
+    }
+      .portrets >img:nth-child(4){
+      position: absolute;
+      top: 37.5rem;
+      left: 49rem;
+    }
+    #portrets{
+      color: white;
+      font-size: 150px;
+      font-family: helvetica;
+      -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: red;
+        -webkit-text-fill-color: transparent;
+        padding-top: 30rem;
+        display: block;
+        position: absolute;
+        left: 29rem;
+        z-index: 3;
+    }
+    .wedding{
+      height: 70rem;
+      width: auto;
+      position: relative;
+    }
+    .wedding > .wedding1{
+      position: absolute;
+      top: 17rem;
+      left: 64.6rem;
+    }
+        .wedding > .wedding3{
+      position: absolute;
+      top: 7rem;
+      left: 44rem;
+    }
+        .wedding > .wedding6{
+      position: absolute;
+      top: 37.5rem;
+      left: 49rem;
+    }
+      .wedding > .wedding8{
+      position: absolute;
+      top: 37.5rem;
+      left: 79.7rem;
+    }
+    #wedding{
+      color: white;
+      font-size: 150px;
+      font-family: helvetica;
+      -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: red;
+        -webkit-text-fill-color: transparent;
+        padding-top: 30rem;
+        display: block;
+        position: absolute;
+        left: 29rem;
+        z-index: 3;
+    }
+    .restaurant{
+      height: 70rem;
+      width: auto;
+      position: relative;
+    }
+  .restaurant > .nomad3{
+    position: absolute;
+    top: 17rem;
+    left: 64.6rem;
+    }
+    .restaurant >.nomad8{
+      position: absolute;
+      top: 8rem;
+      left: 44rem;
+    }
+    .restaurant >.nomad10{
+      position: absolute;
+      top: 37.5rem;
+      left: 79.7rem;
+    }
+    .restaurant >.nomad12{
+      position: absolute;
+      top: 37.5rem;
+      left: 55rem;
+    }
+    #nomad{
+      color: white;
+      font-size: 150px;
+      font-family: helvetica;
+      -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: red;
+        -webkit-text-fill-color: transparent;
+        padding-top: 30rem;
+        display: block;
+        position: absolute;
+        left: 29rem;
+        z-index: 3;
+    }
+  }
